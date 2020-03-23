@@ -56,7 +56,7 @@ struct color {
 int BMPtoPGM(struct color *image, int width, int height) {
     char filename[100];
     FILE *fp;
-    unsigned char id_field[] = "P2", newLine = '\n', space = ' ';
+    unsigned char id_field[] = "P5", newLine = '\n', space = ' ';
     unsigned char cwidth[3], cheight[3], cintensity[] = "255";
     int i,j;        // Loop variables
 
