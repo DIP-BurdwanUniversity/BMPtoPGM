@@ -167,6 +167,6 @@ int main() {
     conversionStatus = BMPtoPGM(image, header1.width, header1.height);
     if(conversionStatus == -1) printf("\nFailed to successfully convert image\n");
     else printf("\nSuccessfully copied to PGM image\n");
-
+    free(image);
     return 0;
 }
