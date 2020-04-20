@@ -23,18 +23,6 @@ Sample inputs and outputs are present in `input` and `output` directory respecti
     <img src="docs\arrow.png" alt="arrow" width="200px" height="200px"/>
     <img src="docs\colors.jpg" alt="colors.pgm" width="200px" height="200px"/>
 
-+ Discrepancy with large resolution images
-
-    <img src="input\a.bmp" alt="colors.bmp" width="250px" height="100px"/>
-    <img src="docs\arrow.png" alt="arrow" width="100px" height="100px"/>
-    <img src="docs\a.jpg" alt="a.pgm" width="250px" height="100px"/>
-
-+ Discrepancy with `monochrome bitmap` images
-
-    <img src="input\monochrome.bmp" alt="monochrome.bmp" width="200px" height="200px"/>
-    <img src="docs\arrow.png" alt="arrow" width="200px" height="200px"/>
-    <img src="docs\monochrome.jpg" alt="monochrome.pgm" width="200px" height="200px"/>
-
 ### Note
 
 + Representations above are made in formats viewable in browsers. Actual images present in `output` directory
